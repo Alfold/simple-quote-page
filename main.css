@@ -23,11 +23,63 @@ body {
 
 .quote {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5rem; 
+  font-size: 1.25rem; 
 }
 
 .author {
   font-family: 'Crimson Text', serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-style: italic;
+}
+
+@media (min-width: 366px) {
+
+  .quote {
+    font-size: 1.5rem;
+    padding-top: 0rem;
+}
+  
+  .author {
+  font-size: 1.5rem;
+}
+  
+}
+
+@media (min-width: 615px) {
+
+  .quote {
+    font-size: 1.75rem;
+    padding-top: 0rem;
+}
+  
+  .author {
+  font-size: 1.75rem;
+}
+  
+}
+
+@media (min-width: 825px) {
+
+  .quote {
+    font-size: 1.95rem;
+    padding-top: 1rem;
+}
+  
+  .author {
+  font-size: 1.95rem;
+}
+  
+}
+
+@media (min-width: 1125px) {
+
+  .quote {
+    font-size: 2.25rem;
+    padding-top: 1rem;
+}
+  
+  .author {
+  font-size: 2.25rem;
+}
+  
 }
